@@ -134,7 +134,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'postapp', 'static')
+    os.path.join(BASE_DIR, 'qrapp', 'static')
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
